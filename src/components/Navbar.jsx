@@ -4,7 +4,7 @@ import Logo from '../assets/logo.png';
 function Navbar() {
   return (
     <>
-      <div class="relative w-full bg-white px-4 sm:px-6 md:px-10 lg:px-24">
+      <div class="relative w-full px-4 sm:px-6 md:px-10 lg:px-24">
         <div class="mx-auto flex items-center justify-between py-6">
           <div class="inline-flex items-center space-x-2">
             <span>
