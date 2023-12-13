@@ -1,5 +1,6 @@
 import React from "react";
 import Car from "../assets/car.svg";
+import Button from "../components/Button"
 
 function Hero() {
   return (
@@ -11,7 +12,8 @@ function Hero() {
             <h1 className="text-center md:text-left">Find your best </h1><h1 className="text-red-600 text-center md:text-left">dream car for rental</h1>
           </div>
           <p className="text-center md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam voluptates a asperiores, tenetur maiores similique deleniti accusamus! Nemo saepe facilis vel at sunt dolorum assumenda quibusdam obcaecati quae accusantium!</p>
-          <a href="#" className="px-6 py-3 rounded-sm w-fit lg:w-1/3 text-center text-white font-semibold uppercase bg-red-600">Book Car</a>
+          {/* <a href="#" className="px-6 py-3 rounded-sm w-fit lg:w-1/3 text-center text-white font-semibold uppercase bg-red-600">Book Car</a> */}
+          <Button btnText="Book Car" />
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
           <img src={Car} alt="" className="w-full sm:w-2/3 md:w-full" />
