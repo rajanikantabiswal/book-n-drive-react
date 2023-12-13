@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 
+
 function BookingBar() {
   return (
     <div className="w-full mx-auto flex px-4 sm:px-6 md:px-10 lg:px-24 pb-12 justify-center">
@@ -31,6 +32,7 @@ function BookingBar() {
                     </div>
                     <div className="col-span-12 lg:col-span-2 mt-4">
                     <Button btnText="Search Car" />
+                  
                     </div>
                 </div>
             </form>
